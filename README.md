@@ -40,3 +40,13 @@ Football: (?:\bfootball\b|\bknights\b|\bgame\s+day\b)
 Professors: \bprofessors?\b · Friend(s): \bfriends?\b · Party/parties: \bpart(?:y|ies)\b
 
 Visualize overall and by topic using the UCF color scheme.
+
+## Repo contents
+
+```text
+reddit_ucf_sentiment.ipynb     # notebook (pipeline + plots)
+overall_sentiment_ucf.png      # overall distribution
+topic_sentiment_stacked_ucf.png# topic stacked bars
+ucf_sentiment_master.csv       # dataset (comments + labels)
+README.md
+.gitignore
