@@ -1,4 +1,16 @@
 # r/UCF Social Media Sentiment Analysis
+
+## Repo contents
+
+```text
+reddit_ucf_sentiment.ipynb     # notebook (pipeline + plots)
+overall_sentiment_ucf.png      # overall distribution
+topic_sentiment_stacked_ucf.png# topic stacked bars
+ucf_sentiment_master.csv       # dataset (comments + labels)
+README.md
+.gitignore
+```
+
 **TL;DR:** Collected r/UCF Reddit comments, ran a RoBERTa sentiment model, and visualized topic-level trends. Parking is consistently the most negative topic.
 
 **Headline numbers**
@@ -41,12 +53,3 @@ Professors: \bprofessors?\b · Friend(s): \bfriends?\b · Party/parties: \bpart(
 
 Visualize overall and by topic using the UCF color scheme.
 
-## Repo contents
-
-```text
-reddit_ucf_sentiment.ipynb     # notebook (pipeline + plots)
-overall_sentiment_ucf.png      # overall distribution
-topic_sentiment_stacked_ucf.png# topic stacked bars
-ucf_sentiment_master.csv       # dataset (comments + labels)
-README.md
-.gitignore
